@@ -110,6 +110,7 @@ img {
     flex-direction: row;
     max-height: 540px;
     margin: 2rem;
+    color: black;
 }
 
 .postcard-1{
@@ -127,4 +128,13 @@ img {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.postcard .card-img {
+        height: 540px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+      
 }
