@@ -1,0 +1,85 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"); */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+
+:root {
+  --black-color: rgba(25, 24, 24, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --yellow-color: rgba(235, 217, 107, 1);
+  --gray-color: rgba(127, 127, 127, 1);
+  --light-gray-color: rgba(211, 211, 211, 1);
+  --red-color: rgba(234, 23, 1, 1);
+  --circle-color: rgba(239, 236, 235, 1);
+  --lavender-color: rgba(230, 230, 250, 1);
+  --light-Wood: rgba(218, 165, 32, 1);
+  --gold: rgba(255, 215, 0, 1);
+  --charcoal: rgba(54, 69, 79, 1);
+  --Periwinkle: rgba(204, 204, 255, 1);
+  --tan: rgba(210, 180, 140, 1);
+  --fuchisa: rgba(255, 0, 255, 1);
+  --Green: rgba(0, 128, 0, 1);
+  --navy: rgba(0, 0, 128, 1);
+  --Light-Gray: rgba(217, 217, 214, 1);
+  --Blush: rgba(255, 182, 193, 1);
+  --burnt-orange: rgba(255, 69, 0, 1);
+  --light-Blue: rgba(173, 216, 230, 1);
+  --purple-color: rgba(128, 0, 128, 1);
+}
+
+
+
+
+
+.hero-section {
+    background-image: url(../img/scenic-mountains-landscape-after-rain-carpathians-ukraine.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-brand img {
+    object-fit: cover;
+    height: 3.5rem;
+    border-radius: 10rem;
+}
+ .first-nav .hamburger {
+    margin-left: auto;
+    max-width: fit-content;
+    margin-bottom: 1rem;
+ }
+
+
+img {
+    object-fit: cover;
+    height: 3.5rem;
+    border-radius: 10rem;
+}
+
+.hero-section {
+   height:550px;
+}
+
+.main-text {
+    margin: 0 auto;
+    width: 100%;
+    padding: 12rem;
+    display: flex;
+    flex-direction: column;
+    
+}
