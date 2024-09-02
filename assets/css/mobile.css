@@ -72,7 +72,8 @@ img {
 }
 
 .hero-section {
-   height:550px;
+   height:600px;
+   
 }
 
 .main-text {
@@ -81,5 +82,49 @@ img {
     padding: 12rem;
     display: flex;
     flex-direction: column;
-    
+
+}
+
+.services {
+    margin: 0 auto;
+   
+    height: 400px;
+}
+
+.services .service-list{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.postcard {
+    display: flex;
+    flex-direction: row;
+    max-height: 540px;
+    margin: 2rem;
+}
+
+.postcard-1{
+    background-color: #adb5be;
+}
+
+.postcard-2 {
+    flex-direction: row-reverse;
+    background-color: #fff100;
+}
+
+.postcard-3 {
+    background-color: #fd7e14;
+}
+
+a {
+    text-decoration: none;
 }

@@ -54,7 +54,7 @@
 
     <section class= "hero-section"  >
       <div class="color-overlay">
-  <div class="main-text col-" >
+  <div class="main-text col-8" >
       <h1>WE ARE BELVARDA GLOBAL SERVICES</h1>
 
          <form class="d-flex" role="search">
@@ -66,29 +66,28 @@
       </div>
         
       </div> 
+   
+      <div class="services col-md-4">
+        <ul class="service-list">
+          <li class="service-1"> <button type="button" class="global-delivery"> <a href="#"><img src="./assets/img/global-export-div-svgrepo-com.svg" alt=""></a> </button></li>
+          <li class="service-2"><button type="button" class="shopping-experience"> <a href="#"> <img src="./assets/img/shopping-cart-div-svgrepo-com.svg" alt=""></a></button></li>
+          <li class="service-3"><button type="button" class="customer-support"> <a href="#"><img src="./assets/img/global-support-svgrepo-com.svg" alt=""></a> </button></li>
+        </ul>
+       </div>
+
 </section>
      
-    </section class="service-">
-     <section class="services">
-      <ul class="service-list">
-        <li class="service-1"> <button type="button" class="global-delivery"> <img src="./assets/img/global-export-div-svgrepo-com.svg" alt=""></button></li>
-        <li class="service-2"><button type="button" class="shopping-experience"> <img src="./assets/img/shopping-cart-div-svgrepo-com.svg" alt=""></button></li>
-        <li class="service-3"><button type="button" class="customer-support"> <img src="./assets/img/global-support-svgrepo-com.svg" alt=""></button></li>
-      </ul>
-     </section>
+   
     
-    <section class="hero-content">  
-      <div class="coal-card card">
+    <section class="card-section  container">  
 
-        <div class="coal-img-section card-img-section">
-                <img class="coal-img card-img" src="./assets/img/coal-8--6D71rfz7j1E-unsplash.svg" alt="">
-                  <!-- <img class="hover-img" src="./assets/img/coal-2.svg" alt=""> -->
-        </div>
-        
-        <div class="coal-writeup product-intro">
-          <div class="card-title">
+
+      <article class="postcard-1 postcard">
+ <img class="coal-img card-img" src="./assets/img/coal-8--6D71rfz7j1E-unsplash.svg" alt="">
+    
+           <div class="card-img-text charcoal-card">
                  <h3>Charcoal</h3>
-
+                 <div class="bar grey"></div>
                   <p>
                     Experience the ultimate grilling with our premium charcoal briquettes. Made from 100% natural hardwood, our charcoal provides a long-lasting, even burn for perfect BBQs every time. Enjoy a smokeless, high-heat performance that enhances the flavor of your food. Ideal for grilling, smoking, and outdoor cooking choice for any barbecue enthusiast. </p>
                     <ul class="product-list">
@@ -97,23 +96,14 @@
                       <li class="faq">Enhances food flavor</li>
                      
                     </ul>
-                    <button type="button" class="place-order">place order</button>
+                    <button type="button" class="place-order btn btn-light"><a href="#">place order</a> </button>
           </div>
-             
-        </div>
-
-    
-
-      </div>
-      <div class="honey-card card">
-         
-        <div class="honey-img-section card-img-section">
+      </article>
+      <article class="honey-card  postcard-2 postcard $yellow-800">
           <img class="honey-img card-img" src="./assets/img/honey-bee-mTNVvQvmoKs-unsplash-3000x3000.png" alt="">
-           <!-- <img class="hover-img" src="" alt=""> -->
-        </div>
-        <div class="honey-writeup product-intro">
-          <div class="card-title"> 
+            <div class=" honey-card-text"> 
                         <h3>African bee honey</h3>
+                        <div class="bar warning"></div>
         <p>
           Pure African Bee Honey 
           Indulge in the rich, natural sweetness of our pure African bee honey. Harvested from wild bees in pristine environments, this honey is packed with antioxidants and nutrients. Perfect for sweetening your tea, drizzling over desserts, or enjoying straight from the jar, Nature's finest honey.</p>
@@ -123,24 +113,21 @@
           <li class="faq"> Versatile for various culinary uses</li>
           
         </ul>
-        <button type="button" class="place-order"> place order</button>
+        <button type="button" class="place-order btn btn-light"> <a href="#">place order</a> </button>
           </div>
-      
-        </div>
+        
 
-      </div>
+      </article>
 
 
-      <div class="Palm-oil-card card">
-        <div class="oil-img-section card-img-section">
-           <img class="oil-img card-img" src="./assets/img/red-oil-three.jpg" alt="">
-           <!-- <img class="hover-img" src="" alt=""> -->
-        </div>
+      <article class="Palm-oil-card postcard-3 postcard ">
+          <img class="oil-img card-img rounded-start " src="./assets/img/red-oil-three.jpg" alt="">
        
-       
-        <div class="palm-oil-writeup product-intro">
-          <div class="card-title">
+        <div class="card-img-text palm-oil-card ">
   <h3> Organic Palm Oil</h3>
+
+ 
+   <div class="bar red"></div>
         <p>
           Discover the versatility of our organic palm oil, sourced sustainably from eco-friendly farms. Perfect for cooking, baking, and frying, it offers a high smoke point and neutral flavor. Packed with vitamins A and E, it supports a healthy lifestyle while being kind to the planet. Enjoy the benefits of a premium oil that aligns with your values.
           </p>
@@ -150,12 +137,202 @@
             <li class="faq" >Sustainably</li>
            
           </ul>
-          <button type="button" class="place-order">place order</button>
+          <button type="button" class="place-order btn btn-light"><a href="#">place order</a> </button>
           </div>
-         
-        </div>
+      
+      </article>
+    </section>
+
+    <!-- <section class="dark">
+      <div class="container py-4">
+        <h1 class="h1 text-center" id="pageHeaderTitle">My Cards Dark</h1>
+    
+        <article class="postcard dark blue">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play blue">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="postcard dark red">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play red">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="postcard dark green">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play green">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="postcard dark yellow">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+          </a>
+          <div class="postcard__text">
+            <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play yellow">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
       </div>
     </section>
+    
+    <section class="light">
+      <div class="container py-2">
+        <div class="h1 text-center text-dark" id="pageHeaderTitle">My Cards Light</div>
+    
+        <article class="postcard light blue">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play blue">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="postcard light red">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play red">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="postcard light green">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play green">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="postcard light yellow">
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play yellow">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section> -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
