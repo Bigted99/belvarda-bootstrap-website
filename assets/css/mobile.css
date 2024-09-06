@@ -167,7 +167,13 @@ a img {
 .card-text {
     height: 60%;
     padding: 0 10px 20px 10px;
+    
     gap: 0.8rem;
+}
+
+.card-text p {
+    padding: 0;
+    font-weight: 500;
 }
 
 .card-img {
@@ -178,11 +184,18 @@ a img {
 
 .honey-btn, .charcoal-btn, .furniture-btn {
     margin-top: 1.5rem;
+   
 }
 
-.palm-oil-text {
- padding: 0;
+.place-order  a {
+    color: var(--circle-color);
 }
+/* .charcoal-btn :hover {
+    background: var(---circle-color);
+    color: var(--circle-color);
+} */
+
+
 
 /* .logo {
     display: flex;
