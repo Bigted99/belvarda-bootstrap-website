@@ -166,13 +166,22 @@ a img {
 
 .card-text {
     height: 60%;
-    padding: 1rem;
+    padding: 0 10px 20px 10px;
+    gap: 0.8rem;
 }
 
 .card-img {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.honey-btn, .charcoal-btn, .furniture-btn {
+    margin-top: 1.5rem;
+}
+
+.palm-oil-text {
+ padding: 0;
 }
 
 /* .logo {
