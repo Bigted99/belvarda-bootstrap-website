@@ -190,6 +190,47 @@ a img {
 .place-order  a {
     color: var(--circle-color);
 }
+
+
+
+.contact-us-section {
+    background-color: rgba(255, 207, 87, 1 );
+}
+
+
+
+.form-left-container {
+    color: var(--circle-color);
+    /* display:flex; */
+    flex:1;
+    height:480px;
+    /* justify-content:center;
+    align-items:center; */
+    border-radius: 11px 14px;
+}
+
+input, textarea {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  font-size:0.8rem;
+}
+
+.form-right-container {
+    /* display:flex; */
+    flex:1;
+  
+    background-color: white;
+    /* justify-content:center; */
+    /* align-items:center; */
+    border-radius: 11px 14px;
+}
+
+
+
+
 /* .charcoal-btn :hover {
     background: var(---circle-color);
     color: var(--circle-color);
