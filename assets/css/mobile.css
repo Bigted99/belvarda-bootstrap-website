@@ -243,6 +243,34 @@ input, textarea {
     width: 500px;
 }
 
+.carousel-item img {
+  max-width: 100px;
+ margin: 0 auto;
+  object-fit: cover;
+}
+
+
+
+.carousel-item {
+  padding: 7% 11%;
+  text-align: center;
+}
+
+.carousel-caption {
+  margin-top: 2rem;
+}
+
+.carousel-indicator {
+    right: 0;
+    left: 0;
+    top: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+}
 
 
 
