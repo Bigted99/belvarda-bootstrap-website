@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 *,
@@ -196,11 +197,13 @@ a img {
 
 .contact-us-section {
     background-color: rgba(255, 207, 87, 1 );
+    text-align: center;
 }
 
 .form-container {
-    /* height: 500px; */
-    /* padding: 0 3.5em; */
+ display: flex;
+ flex-direction: row;
+    padding: 10px 10px;
     margin: 0 auto ;
     
    background-color:  #080008;
@@ -209,18 +212,17 @@ a img {
 .form-left-container {
     color: var(--light-gray-color-color);
     /* display:flex; */
-    flex:1;
-    height:300px;
-     margin: 6.5rem 0 ;
-    /* justify-content:center;
-    align-items:center; */
-    border-radius: 11px 14px;
-    /* margin-left: 4rem; */
+  
+    max-width: fit-content;
+     margin: 10px auto ;
+    gap: 1.5rem;
+
+   border-radius: 11px 14px;
 }
 
 .form-left-inner-container {
- 
-    max-width: fit-content;
+  padding: 10px 1px;
+  max-width: 330px;
 }
 
 input, textarea {
@@ -233,14 +235,14 @@ input, textarea {
 }
 
 .form-right-container {
-    /* display:flex; */
-    flex:1;
    border: 2px solid black;
     background-color: var(--light-gray-color);
-    /* justify-content:center; */
-    /* align-items:center; */
     border-radius: 11px 14px;
-    width: 500px;
+  
+}
+
+.form-right-inner-container {
+  padding: 10px 1px;
 }
 
 .carousel-item img {
@@ -274,171 +276,30 @@ input, textarea {
 
 
 
-/* .charcoal-btn :hover {
-    background: var(---circle-color);
-    color: var(--circle-color);
-} */
-
-
-
-/* .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
-
-/* .navbar-brand img {
-    object-fit: cover;
-    height: 3.5rem;
-    border-radius: 10rem;
-}
- .first-nav .hamburger {
-    margin-left: auto;
-    max-width: fit-content;
-    margin-bottom: 1rem;
-
- } */
-
-/* img {
-    object-fit: cover;
-    height: 3.5rem;
-    border-radius: 10rem;
-} */
-
-/* .main-text {
-    margin: 0 auto;
-    width: 100%;
-    padding: 12rem;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.services {
-    margin: 0 auto;
-     overflow: hidden;
-    max-height: 400px;
-}
-
-.services .service-list{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    list-style: none;
-    margin: 0 2rem 0 2rem;
-}
-
-.card-section {
-    display: flex;
-    flex-direction: column;
-   
-}
-
-
-.postcard {
-    display: flex;
-    
-    flex-direction: row;
-    max-height: 540px;
-    margin: 1rem 10px 2rem 10px;
-    color: black;
-    border-radius: 11px 14px;
-}
-
-.postcard-1{
-    background-color: #adb5be;
-}
-
-.postcard-2 {
-    flex-direction: row-reverse;
-    background-color: #fff100;
-}
-
-.postcard-3 {
-    background-color: #fd7e14;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.postcard .card-img {
-        min-height: 540px;
-        width: 100%;
-        object-fit: cover;
-   
-        border-radius: 11px 14px;
-      
-}
-
-.card-img-text {
-
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  flex-wrap: wrap;
-   gap: 1rem;
-  margin: 2px 10px 10px 2px;
-  width: 100%;
-  min-height: 540px;
-}
-
-.text-container {
-    max-width: fit-content;
-   
-   margin: 0 2px 0 2px;
-}
-
- */
-
 @media (min-width: 475px) {
   .container-custom {
     max-width: 475px;
   }
 }
 
-@media (min-width: 760px) and (max-width: 1024px) {
+@media (min-width: 760px ) and (max-width: 1024px) {
   .container-custom {
     max-width: 1024px;
   }
 
-  .first-nav {
-    display: flex;
-    flex-direction: column;
-  }
 
-  /* .navbar-toggler {
- display: none;
-    } */
 }
 
-/* 
-  @media (min-width: 640px) {
-    
-    .container-custom {
-        max-width: 640px;
-    }
-  }
+@media (max-width: 990px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+}
+.form-left-container,
+.form-right-container {
+    width: 100%;
+}
 
-  @media (min-width: 768px) {
-    
-    .container-custom {
-        max-width: 768px;
-    }
-  }
+}
 
-
-  @media (min-width: 1280px) {
-    
-    .container-custom {
-        max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    
-    .container-custom {
-        max-width: 1536px;
-    }
-  } */
