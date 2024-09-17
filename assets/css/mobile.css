@@ -238,11 +238,17 @@ input, textarea {
    border: 2px solid black;
     background-color: var(--light-gray-color);
     border-radius: 11px 14px;
+   margin: 10px 10px;
   
 }
 
 .form-right-inner-container {
   padding: 10px 1px;
+}
+
+.testimonial-carousel {
+  background-image: url(../img/white-background72.jpg);
+
 }
 
 .carousel-item img {
@@ -258,9 +264,9 @@ input, textarea {
   text-align: center;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   margin-top: 2rem;
-}
+} */
 
 .carousel-indicator {
     right: 0;
@@ -272,6 +278,18 @@ input, textarea {
     padding: 0;
     margin-right: 15%;
     margin-left: 15%;
+}
+
+
+.testimonial-card  {
+  background-color: var(--invisible);
+  border: none;
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+.name h4 , .location span{
+  font-weight: 500;
 }
 
 
@@ -299,6 +317,7 @@ input, textarea {
 .form-left-container,
 .form-right-container {
     width: 100%;
+   
 }
 
 }
