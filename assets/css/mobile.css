@@ -264,6 +264,10 @@ input, textarea {
   text-align: center;
 }
 
+svg {
+  overflow: hidden;
+}
+
 /* .carousel-caption {
   margin-top: 2rem;
 } */
@@ -288,9 +292,15 @@ input, textarea {
   text-align: center;
 }
 
-.name h4 , .location span{
+.name h4 {
   font-weight: 500;
+  
 }
+
+
+
+
+
 
 
 
