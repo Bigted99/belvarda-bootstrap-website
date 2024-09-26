@@ -53,6 +53,7 @@ li {
   font-style: light;
   list-style: none;
   text-decoration: none;
+  color: var(--lavender-color);
 }
 
 /* end of utility class */
@@ -307,6 +308,9 @@ input, textarea {
 }
 
 
+p>strong {
+  font-size: larger;
+}
 
 @media (min-width: 475px) {
   .container-custom {
